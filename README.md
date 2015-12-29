@@ -20,7 +20,7 @@ This repo use https://github.com/sthielen/BigUpload, you must import JS/CSS in y
 
 In your project base directory run
 
-	composer require damien30/laravel-bigupload
+	composer require dlouvard/laravel-bigupload
 	
 To bring up the config file run, if you want to customize
 
@@ -30,7 +30,7 @@ Then edit `config/app.php` and add the service provider within the `providers` a
 
 	'providers' => array(
 		...
-		Damien30\Laravel-Bigupload\BiguploadServiceProvider::class,
+		Dlouvard\LaravelBigupload\BiguploadServiceProvider::class,
 
 <a id="usage"></a>
 ## Usage
