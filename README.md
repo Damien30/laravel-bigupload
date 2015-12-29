@@ -20,7 +20,7 @@ This repo use https://github.com/sthielen/BigUpload, you must import JS/CSS in y
 
 In your project base directory run
 
-	composer require dlouvard/laravel-bigupload
+	composer require "dlouvard/laravel-bigupload":"master@dev"
 	
 To bring up the config file run, if you want to customize
 
