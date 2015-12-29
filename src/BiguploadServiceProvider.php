@@ -1,4 +1,4 @@
-<?php namespace Louvard\Bigupload;
+<?php namespace Dlouvard\LaravelBigupload;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,5 +1,5 @@
 {
-  "name": "louvard/bigupload",
+  "name": "dlouvard/laravel-bigupload",
   "description": "Upload big Files with BigUpload : sthielen/BigUpload",
   "keywords": [
     "laravel",
@@ -19,11 +19,12 @@
     }
   ],
   "require": {
-    "php": ">=5.5.9"
+    "php": ">=5.5.9",
+    "illuminate/support": "5.1.*|5.2.*",
   },
   "autoload": {
     "psr-4": {
-      "Louvard\\Bigupload\\": "src/"
+      "Dlouvard\\LaravelBigupload\\": "src/"
     }
   },
   "minimum-stability": "dev",
