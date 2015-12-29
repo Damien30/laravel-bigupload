@@ -1,0 +1,31 @@
+{
+  "name": "louvard/bigupload",
+  "description": "Upload big Files with BigUpload : sthielen/BigUpload",
+  "keywords": [
+    "laravel",
+    "framework",
+    "upload",
+    "upload big files",
+    "BigUpload",
+    "Laravel Bigupload",
+    "Laravel-bigupload",
+    "Damien Louvard",
+    "DamienLouvard"
+  ],
+  "authors": [
+    {
+      "name": "Damien Louvard",
+      "email": "contact@damien-louvard.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Louvard\\Bigupload\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
