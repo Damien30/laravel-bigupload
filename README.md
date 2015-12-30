@@ -4,14 +4,15 @@ Use Laravel with the plugin bigupload
 This repo use https://github.com/sthielen/BigUpload, you must import JS/CSS in your application.
 
 1. [Features](#features)
-2. [Installation](#Installation)
-3. [Usage](#Usage)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Options](#options)
 
 ----
 
 <a id="features"></a>
 ## Features
-- upload large files over the server configuration 
+- Upload large files over the server configuration 
 - ProgressBar with time remaining
 - Button upload/resume/Cancel
 
@@ -39,8 +40,10 @@ Then edit `config/app.php` and add the service provider within the `providers` a
 - In your file.blade.php install the block bigupload with the javascript
 - Prepare you ajax file with "Try{...}" and the response in JSON
 
+<a id="options"></a>
+## Options
 
-
+I propose a customization file for the bigupload.js send cancel function
 
 
 
